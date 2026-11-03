@@ -11,3 +11,11 @@ elif score >= 60:
     print("You got a D!")
 else:
     print("You got an F!")
+
+
+
+#Multiplication Table Generator
+num = float(input("Enter any number to gernerate its multiplication table: "))
+for i in range(1, 11):
+    print(f"{num} ❌ {i} = {num*i} ")
+            
